@@ -62,7 +62,7 @@ export default function HeroContent() {
             style={{ animationDelay: '1s' }}
           >
             <Link
-              href="/signup"
+              href="/job-preparation"
               className="group relative px-8 py-4 font-bold rounded-xl transition-all duration-300 overflow-hidden text-base shadow-xl hover:-translate-y-1 hover:shadow-2xl"
               style={{
                 background: '#87CEFA',

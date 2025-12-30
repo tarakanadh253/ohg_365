@@ -116,7 +116,7 @@
         {
           "label": "Job Preparation",
           "slug": "job-prep",
-          "href": "https://ai-interviewer-ohg.vercel.app/"
+          "href": "/job-preparation"
         },
         {
           "label": "Resume Templates",

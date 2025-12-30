@@ -5,7 +5,7 @@ import TechLayout from '@/components/tech-layout';
 import VideoSection from '@/components/VideoSection';
 import { getVideosForTopic } from '@/data/videoTutorials';
 import { AUTH_SYSTEM_AVAILABLE } from '@/config/authStatus';
-import { Rocket, Target, Search, Check, Layers, User, Zap, Terminal, GitBranch, Server, Box, Activity, ZoomIn, Settings, FileJson, RefreshCcw, BookOpen } from 'lucide-react';
+import { Rocket, Target, Search, Check, Layers, User, Zap, Terminal, GitBranch, Server, Box, Activity, ZoomIn, Settings, FileJson, RefreshCcw, BookOpen, Code } from 'lucide-react';
 
 export default function DevOpsPage() {
   const [activeSection, setActiveSection] = useState('introduction');

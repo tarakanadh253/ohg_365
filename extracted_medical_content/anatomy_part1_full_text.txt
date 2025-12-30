@@ -1,0 +1,394 @@
+--- PAGE 1 ---
+MEDICAL CODING ABHISHEK-CPC
+Medical coding is a translation or conversion of diseases or
+conditions, procedures or surgeries, and materials or supplies in to
+universally accepted codes.
+Ex: for diseases are: Appendicitis, Fever, Rhinitis, Nephritis, HIV,
+Sepsis etc.
+EX: for procedures are: Appendectomy, Rhinotomy, x- ray, MRI,
+Anaesthesia etc.
+
+--- PAGE 2 ---
+EX: Materials: Ambulance services, wheelchair equipment’s,
+Bandages, injections, Durable medical equipment.
+CODES: 3 TYPES
+Alphabetical, Numeric, Alpha+numeric.
+Numeric: only numbers
+Alphanumeric: alphabets+ numbers
+Alphabetical: only alphabets.
+
+--- PAGE 3 ---
+RCM CYCLE (REVENUE CYCLE MANAGEMENT)
+Patients come to hospital with disease, physician provides treatment
+to patient, insurance company pays fees for physician, patient pays
+premium to the insurance company.
+Medical Transcript: Translates the Audio file in to Text file.
+Medical coder: Converts the Text file in to Coding file.
+Medical Biller: Converts coding file in to billing form.
+BOOKS USED IN MEDICAL CODING ARE:
+
+--- PAGE 4 ---
+ICD–10–CM: International classification of diseases 10th Revision
+clinical modification.
+• This book published by WHO.
+• This book is used for to code Diseases.
+• They are 3 – 7 digits, Alpha+ numeric codes.
+CPT: Current procedural terminology
+• Published by American medical association.
+• This book is used for to code procedure or surgeries or services.
+• They are 5-digit numeric codes
+HCPCS: Health care common procedural coding system.
+• Published by CMS (centre for Medicare and Medicaid services)
+• This book is used to code the supplies or material codes.
+• This book contains 5-digit alpha + numeric codes
+CPC – CERTIFICATION:
+• Certified professional coder exam conducted by AAPC.
+• 100 – marks exam 70% is qualifying percentage.
+• 4 hours exam Duration.
+• Open Book Exam ICD-10-CM, CPT, HCPCS.
+CARRER IN MEDICAL CODING:
+• We start our career as Junior medical coder then senior medical
+coder followed by Team leader and asst manager then manager.
+• Packages depend on the companies.
+• Cpc certified paid more than non-cerfier.
+
+--- PAGE 5 ---
+ABHISHEK-CPC
+ANATOMY AND MEDICAL TERMINOLGY
+Anatomy and medical terminology are most important for medical coding.
+• To read the patient report we should know the medical terms and
+anatomical structure and function of the organ.
+• Medical terms: medical terms are a language of medicine used to
+describe the anatomical structures or organ names, disease names and
+procedures.
+Ex1: medical terms for organs are
+➢ Dermo = Skin
+➢ Cardio = Heart
+➢ Dento = Teeth
+Ex2: Medical terms for diseases are
+➢ Itis = inflammation or infection
+➢ Gastritis = inflammation of stomach
+➢ Dermatitis = inflammation of skin
+Ex 3: medical terms for surgeries or procedure are
+➢ Ectomy = surgical removal
+➢ Otomy = surgical incision
+
+--- PAGE 6 ---
+➢ Scopy = visual examination
+➢ Appendectomy = surgical removal of appendix
+➢ Gatroscopy = visual examination of stomach.
+➢ Dematotomy = surgical incision of skin.
+ANATOMY: Branch of science concerned with bodily structures of humans and
+other living organisms.
+CELL: Structural and functional unit of the body or organism.
+• Group of cells forms tissues
+• Group of tissues forms organs
+• Group of organs forms organ system
+• Group of organ systems forms human body.
+To form human body there is a need of 11 systems.
+1) Integumentary system (skin, nails, hair)
+
+--- PAGE 7 ---
+2) Muscular system (muscles)
+3) Skeletal system (bones)
+4) Nervous system (brain, spinal cord)
+5) Endocrine system (Glands)
+6) Respiratory system (lungs)
+7) Digestive system (mouth, stomach, intestine etc)
+8) Cardiovascular system (Heart, blood vessels)
+9) Renal system (kidney, urinary bladder etc)
+10) Reproductive system
+➢ Male reproductive system
+➢ Female reproductive system
+11) Lymphatic system (immune system)
+
+--- PAGE 8 ---
+A we start the training from basics like medical terms and entire 11 systems of
+anatomy
+➢ If your is non – life science graduate also u can crack the CPC exam and
+interview if u know the basics like medical terms, anatomy and
+guidelines.
+ABHISHEK-CPC
+MEDICAL TERMINOLOGY
+Medical term contains 4 parts.
+Prefix: Starting of medical term and it Changes the entire meaning of the
+medical term.
+Example: PHAGIA means Swallowing.
+➢ Euphagia = normal swallowing.
+➢ Dysphagia = difficulty in swallowing.
+➢ Aphagia = absence of swallowing.
+ROOT WORD: Root word is a foundation of medical term Generally it is a name
+of the organ and it is noun.
+EXAMPLE:
+• Gastr = stomach
+• Cardi = heart
+• Hepat = liver
+• Enter = small intestine.
+• Col = large intestine.
+COMBINING VOWEL: (a, e, i, o, u): combining vowel which combines the
+ROOT WORD+ ROOT WORD and ROOT WORD + SUFFIX.
+EXAMPLE: GASTROENTEROLOGY = Here O is the combining vowel which
+combining Root word + Root word.
+Second O combining the Root word + suffix (logy)
+2) GASTROLOGY: Here O combining the Root word + suffix.
+NOTE: when suffix starts with vowel, we should not use another vowel.
+Example: GASTRITIS = here ITIS means inflammation and (I) is the vowel and
+
+--- PAGE 9 ---
+suffix is starting with the vowel we are not using another vowel.
+SUFFIX: Suffix is the ending of the medical term and it changes the entire
+meaning of the medical term.
+Example: logy = study of, Itis = inflammation, Magaly = enlargement.
+• GASTROLOGY = Study of stomach.
+• GASTRITIS = Inflammation of stomach
+• GASTROMEGALY = Enlargement of stomach.
+ABHISHEK-CPC
+PREFIX MEANING EXAMPLE
+1) A No, NOT, WITHOUT, ABSENCE OF. APHAGIA
+2) AN No, NOT, WITHOUT, ABSENCE OF. ANHYDROUS
+3) AB AWAY FROM ABNORMAL
+4) AD TOWARDS ADDUCTION
+5) CONTRA AGAINST OR OPPOSITE CONTRALATERAL
+6) DYS DIFFICULTY DYSPHAGIA
+7) HYPER EXCESSIVE HYPERTENSION
+8) HYPO LESS OR DIFICIENT HYPOTENSION
+9) NEO NEW NEONATAL
+10) ANTE BEFORE ANTENATAL
+11) POLY MANY POLYDACTYLISM
+12) NOCTO NIGHTTIME NOCTURIA
+13) ERYTHRO RED ERYTHROCYTES
+14) LEUKO WHITE LEUKOCYTES
+15) MELANO BLACK MELANOCYTES
+16) XANTHO YELLOW XANTHOCHROMIA
+17) CYANO BLUE CYANOSIS
+
+--- PAGE 10 ---
+18) ORTHO STRAIGHT ORTHOPNEA
+19) PRE BEFORE PREOPERATIVE
+20) POST AFTER POSTOPERATIVE
+21) HEMI HALF HEMIPLEGIA
+22) SEMI HALF SEMILUNAR
+23) MONO/UNI ONE/SINGLE MONOCYTE, UNILATERAL
+24) BI TWO BILATERAL
+25) TRI THREE TRIAD
+26) QUADRI FOUR QUADRIPLEGIA
+27) HEX SIX HEXOSE
+28) DIPLO DOUBLE DIPLOPIA
+29) AMBI BOTH AMBIDEXTROUS
+30) ISO EQUAL ISOMETRIC
+31) ECTO/EXO OUTSIDE ECTODERM, EXOCRINE GLAND
+32) ENDO WITHIN/INSIDE ENDOCRINE GLAND
+33) IPSI SAME IPSILATERAL
+34) MESO MIDDLE MESODERM
+35) PERI SURROUNDING/AROUND PERICARDIUM
+36) TRANS THROUGH, ACROSS TRANSORAL
+37) MEGALO ENLARGEMENT GASTROMEGALY
+38) HOMO SAME HOMOGENIOUS
+39) ANISO UNEQUAL ANISOCYTOSIS
+40) EU GOOD NORMAL EUPHAGIA
+41) HETERO DIFFIRENT HETEROCHROMIA
+42) INTRA INSIDE INTRACELLULAR
+43) INTER INBETWEEN INTERCELLULAR
+
+--- PAGE 11 ---
+44) PACHY THICK PACHYDERMA
+45) TACHY FAST OR RAPID TACHYCARDIA
+46) BRADY SLOW BRADYCARDIA
+47) SUPRA ABOVE SUPRARENAL
+48) INFRA BELOW INFRAMAMMARY
+49) EN INSIDE ENCEPHALO
+50) EPI ABOVE EPIGASTRIC
+51) SUB BELOW/ UNDER SUBCUTANEOUS
+52) LITHO/CALCULO STONE NEPHROLITHIASIS
+53) CHEMO CHEMICAL CHEMOTHERAPHY
+54) AUTO SELF AUTOLYSIS
+55) PSEUDO FALSE PSUDOCYST
+56) PAN ALL PANGASTRITIS
+57) MAL BAD MALNUTRITION
+58) DESI 1/10TH DECIMETER
+59) CENTI 1/100TH CENTIMETRE
+60) MILLI 1/1000TH MILLIMETRE.
+ABHISHEK-CPC
+SUFFIX MEANING EXAMPLE
+1) al PERTAINING TO (OR) REFERRING TO ABDOMINAL
+2) ic PERTAINING TO (OR) REFERRING TO EPIGASTRIC
+3) ac PERTAINING TO (OR) REFERRING TO CARDIAC
+4) eal PERTAINING TO (OR) REFERRING TO ESOPHAGEAL
+5) ous PERTAINING TO (OR) REFERRING TO SUB CUTANEOUS
+
+--- PAGE 12 ---
+6) ive PERTAINING TO (OR) REFERRING TO PREOPERATIVE
+7) ary PERTAINING TO (OR) REFERRING TO INFRAMAMMARY
+8) ose PERTAINING TO (OR) REFERRING TO ADIPOSE
+9) gram RECORD (OR) IMAGE ELECTROCARDIOGRAM
+10) graph INTSTRUMENT USED TO RECORD ELECTROCARDIOGRAPH
+11) graphy PROCESS OF RECORDING ELECTROCARDIOGRAPHY
+12) meter INSTRUMENT USED TO MEASURE THERMOMETER
+13) metry PROCESS OF MEASURING THERMOMETRY
+14) scope INSTRUMENT USED TO SEE MICROSCOPE
+15) scopy PROCESS OF VISUAL EXAMINATION MICROSCOPY
+16) blast IMMATURE CELL OSTEOBLAST
+17) cyte CELL OSTEOCYTE
+18) gen AN AGENT THAT CAUSES OR PRODUCES CARCINOGEN
+19) itis INFLAMATION APPENDICITIS
+20) phagia SWALLOWING EUPHAGIA
+21) logy STUDY OF GASTROLOGY
+22) poiesis FORMATION OF HEMOPOIESIS
+23) lysis DESTRUCTION HEMOLYSIS
+24) stasis TO STOP HEMOSTASIS
+25) algia PAIN MYALGIA
+26) dynia PAIN DENTODYNIA
+27) ist A SPECIALIST CARDIOLOGIST
+28) form RESEMBLING OR LIKE FUNGIFORM
+29) oid RESEMBLING OR LIKE LIPOID
+30) ule SMALL VEINULE
+31) ole SMALL ARTERIOLE
+
+--- PAGE 13 ---
+32) oma TUMOR CARCINOMA
+33) emesis VOMITHING HEMATEMESIS
+34) edema SWELLING PERIPHERAL EDEMA
+35) iasis FORMATION OF NEPHROLITHIASIS
+36) megaly ENLARGEMENT HEPATOMEGALY
+37) osis CONDITION OF CYANOSIS
+38) penia ABNORMAL REDUCTION ERYTHROCYTOPENIA
+39) phasia SPEAKING DYSPHASIA
+40) phobia FEAR OF HYDROPHOBIA
+41) phile ABNORMAL ATTRACTION PEDOPHILE
+42) rrhexis RUPTURING OR BREAKDOWN TRICHORRHEXIS
+43) rrhage ABNORMAL FLOW OR DISCHARGE HEMORRHAGE
+44) rrhea FLOW OR DISCHARGE SIALORRHEA
+45) trophy DEVELOPPMENT OR NOURISHMENT HYPERTROPHY
+46) centesis SURGICAL PUNCTURE TO
+REMOVE FLUID ARTHROCENTESIS
+47) plasty SURGICAL REPAIR DERMOPLASTY
+48) rrhaphy SURGICAL SUTURING CUTANEORRHAPHY
+49) ectomy SURGICAL REMOVAL APPENDECTOMY
+50) otomy SURGICAL INCISION OR CUT THORACOTOMY
+51) ostomy PERMANENT OPENING TRACHEOSTOMY
+52) pexy SURGICAL FIXATION ORCHIOPEXY
+53) tripsy SURGICAL CRUSHING OR FRAGMENTATION LITHOTRIPSY
+54) emia BLOOD CONDITION ANEMIA
+55) pathy DISEASE MYOPATHY
+56) plasia GROWTH HYPERPLASIA
+
+--- PAGE 14 ---
+57) pnea BREATHING APNEA
+ABHISHEK-CPC
+COMBINIG FORM = ROOT WORD + COMBINING VOWEEL
+COMBINING FORM MEANING EXAMPLE
+1) ABDOMEN/O ABDOMEN ABDOMINOPLASTY
+2) ANGI/O BLOOD VESSEL ANGIOGRAM
+3) PHLEB/O VEINS PHLEBITIS
+4) ATHER/O ARTERIES ATHERROSCLEROSIS
+5) BI/O LIFE BIOLOGY
+6) CARCIN/O CANCER CARCINOGEN
+7) CEPHALO HEAD CEPHALODYNIA
+8) CARDI/O HEART CARDITIS
+9) CYST/O URINARY BLADDER CYSTITS
+10) ELECTR/O ELECTRICITY ELECTROCARDIOGRAM
+11) ENTER/O SMALL INTERSTINE ENTERITIS
+12) GNATH/O JAW GNATHODYNIA
+13) GYNAC/O WOMEN GYNACOLOGIST
+14) HEPAT/O LIVER HEPATITIS
+15) LIP/O LIPID/FAT LIPOLYSIS
+16) MAST/O MAMMARY GLAND/BREAST MASTECTOMY
+17) NECR/O DEAD TISSUE NECROSIS
+18) NECROPSY EXAMINATION OF DEAD TISSUE SKIN NECROPSY
+19) BIOPSY EXAMINATION OF LIVING TISSUE SKIN BIOPSY
+20) NEPHR/O KIDNEY NEPHRORRHAPHY
+
+--- PAGE 15 ---
+21) ARTHR/O JOINT ARTHROCENTESIS
+22) BUCC/O CHEEKS BUCCODYNIA
+23) CEREBR/O BRAIN CEREBROMEGALY
+24) CERVIC/O NECK CERVICALGIA
+25) AB/O FOOD/MEAL ABOPHOBIA
+26) COST/O RIBS COSTOCHRONDITIS
+27) CHONDRO CARTILAGE CHONDRITIS
+28) CRANI/O SKULL CRANIOPLASTY
+29) CUTANEO SKIN SUBCUTANEOUS
+30) DACTYL/O FINGERS POLYDACTYLISM
+31) DENT/O TEETH DENTIST
+32) GINGIV/O GUMS GINGIVITIS
+33) GLASS/O TONGUE GLASSECTOMY
+34) LINGU/O TONGUE SUBLINGUAL
+35) LABI/O LIPS LABIORRHEXIS
+36) ILEO ILEUM (SMALL INTERSTINE) ILEORRHAPHY
+37) ILIO ILIUM ILIOPLASTY
+38) LAPAR/O ABDOMEN LAPAROSCOPIC
+39) MENING/O MENINGES MENINGITIS
+40) MORPH/O SHAPE MORPHOLOGY
+41) MY/O MUSCLE MYALGIA
+42) NEUR/O NERVES NEURAIGIA
+43) ONYCH/O NAIL ONYCOMYCOSIS
+44) UNGU/O NAIL SUBUNGUAL
+45) OT/O EAR OTALGIA
+46) PHARYNG/O THROAT PHARYNGITIS
+
+--- PAGE 16 ---
+47) OPTHALM/O EYE OPTHALMOGIST
+48) PULMONO/PNEUMANO LUNGS PULMONOLOGIST
+49) PY/O PUSS PYORRHEA
+50) REN/O KIDNEY RENAL
+51) SIAL/O SALIVA SIALORRHEA
+52) RHIN/O NOSE RHINITIS
+53) SPONDYL/O VERTEBRAE SPONDYLITIS
+54) STOMAT/O MOUTH STOMATITIS
+55) THROMB/O BLOODCLOT THROMBOLYSIS
+56) OOPHAR/O OVARIES OOPHARECTOMY
+57) HYSTERO/METRO UTERUS HYSTERECTOMY
+58) SALPING/O FALLOPIAN TUBES SALPINGITIS
+59) COLP/O VEGINA COLPOTOMY
+60) ORCHI/O TESTIS ORCHITIS.
+ABHISHEK-CPC
+CAVITIES: - cavities are the hallow spaces present inside the human body.
+
+--- PAGE 17 ---
+1) CRANIAL CAVITY: space present inside the head/skull it is also called house of
+the brain.
+• The major organs present in cranial cavity are –BRAIN,
+ENDOCRINEGLANDS, MENINGES.
+2) THORACIC CAVITY: - Present in chest region, second largest cavity.
+• The major organs present in these cavities are – HEART, LUNGS. THORAX
+IS ALSO CALLED CHEST CAVITY.
+3) ABDOMINAL CAVITY: - Present in stomach region, largest cavity in human
+body.
+• The major organs present in these cavities are – STOMACH, LIVER,
+GALLBLADDER, PANCREAS, KIDNEYS, PARTS OF INTERSTINE. TRUNK –
+THORACIC CAVITY + ABDOMINAL CAVITY
+4) PELVIC CAVITY: - present below the abdominal cavity
+• Major organs present in Pelvic cavity are – URINARY BLADDER, UTERUS,
+FALLOPIAN TUBES, OVARIES ETC. -
+5) SYNOVIAL CAVITY: the space present between two bones is called synovial
+cavity.
+• Synovial cavity contains synovial fluid which prevent friction between
+two bones
+6) Buccal cavity: present inside mouth.
+
+--- PAGE 18 ---
+7) Nasal cavity: present inside nose.
+8) Orbital cavity: The eye ball present inside orbital cavity.
+DIRECTIONS: ABHISHEK-CPC
+
+--- PAGE 19 ---
+1) Anterior or Ventral = front side
+2) Posterior or Dorsal = Back side
+3) AP = anterior to posterior front to back.
+4) PA = posterior to anterior back to front.
+5) Lateral = side
+6) Unilateral = single side
+7) Bilateral = both sides
+8) Contralateral = opposite side
+9) Ipsilateral = side by side.
+10) Proximal = Towards the body
+11) Distal = Away from the body.
+12) Supine = facing upward
+13) Prone = facing down ward
+14) Dorsiflexion = moving foot towards the ankle.
+15) Plantarflexion = moving foot towards ground.
+
+--- PAGE 20 ---
+16) Extremities = Means hands and feets.
+ABHISHEK-CPC
+

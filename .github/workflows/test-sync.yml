@@ -1,0 +1,38 @@
+name: Test Sync Jobcy Portal
+
+on:
+  workflow_dispatch:  # Allow manual trigger only
+
+jobs:
+  test-sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout DevOps Website
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Test Clone Jobcy Portal
+      run: |
+        echo "Testing clone operation..."
+        git clone https://github.com/Karthik2340/jobcy-job-portal.git test-jobcy-temp
+        cd test-jobcy-temp
+        git checkout master
+        echo "✅ Successfully cloned and checked out master branch"
+        
+        echo "Checking directory structure..."
+        ls -la
+        if [ -d "jobcy-frontend-main" ]; then
+          echo "✅ Found jobcy-frontend-main directory"
+          ls -la jobcy-frontend-main/
+        else
+          echo "❌ jobcy-frontend-main directory not found"
+          exit 1
+        fi
+        
+    - name: Cleanup Test
+      if: always()
+      run: |
+        rm -rf test-jobcy-temp
+        echo "✅ Test cleanup completed"

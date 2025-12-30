@@ -1,0 +1,181 @@
+{
+  "menu": [
+    {
+      "label": "Learning Paths",
+      "slug": "learning-paths",
+      "children": [
+        {
+          "label": "Frontend Development Path",
+          "slug": "frontend",
+          "href": "/menu/learning-paths/frontend"
+        },
+        {
+          "label": "Backend Development Path",
+          "slug": "backend",
+          "href": "/menu/learning-paths/backend"
+        },
+        {
+          "label": "Full-Stack Developer Path",
+          "slug": "full-stack",
+          "href": "/menu/learning-paths/full-stack"
+        },
+        {
+          "label": "Data Analyst Path",
+          "slug": "data-analyst",
+          "href": "/menu/learning-paths/data-analyst"
+        },
+        {
+          "label": "Interview Prep Path",
+          "slug": "interview-prep",
+          "href": "/menu/learning-paths/interview-prep"
+        }
+      ]
+    },
+    {
+      "label": "Projects Hub",
+      "slug": "projects",
+      "children": [
+        {
+          "label": "Beginner Projects",
+          "slug": "beginner",
+          "href": "/menu/projects/beginner"
+        },
+        {
+          "label": "Intermediate Projects",
+          "slug": "intermediate",
+          "href": "/menu/projects/intermediate"
+        },
+        {
+          "label": "Advanced Projects",
+          "slug": "advanced",
+          "href": "/menu/projects/advanced"
+        },
+        {
+          "label": "Full-Stack Projects",
+          "slug": "full-stack",
+          "href": "/menu/projects/full-stack"
+        }
+      ]
+    },
+    {
+      "label": "Practice Zone",
+      "slug": "practice",
+      "children": [
+        {
+          "label": "Code Playground",
+          "slug": "playground",
+          "href": "/code-terminal"
+        },
+        {
+          "label": "Coding Challenges",
+          "slug": "challenges",
+          "href": "/challenges"
+        },
+        {
+          "label": "Quizzes",
+          "slug": "quizzes",
+          "href": "/menu/practice/quizzes"
+        },
+        {
+          "label": "MCQ Tests",
+          "slug": "mcq",
+          "href": "/menu/practice/mcq"
+        }
+      ]
+    },
+    {
+      "label": "Resources",
+      "slug": "resources",
+      "children": [
+        {
+          "label": "Cheat Sheets",
+          "slug": "cheat-sheets",
+          "href": "/menu/resources/cheat-sheets"
+        },
+        {
+          "label": "Notes & Summaries",
+          "slug": "notes",
+          "href": "/menu/resources/notes"
+        },
+        {
+          "label": "Roadmaps",
+          "slug": "roadmaps",
+          "href": "/menu/resources/roadmaps"
+        },
+        {
+          "label": "PDFs / Downloads",
+          "slug": "downloads",
+          "href": "/menu/resources/downloads"
+        }
+      ]
+    },
+    {
+      "label": "Career Hub",
+      "slug": "career",
+      "children": [
+        {
+          "label": "Job Preparation",
+          "slug": "job-prep",
+          "href": "https://ai-interviewer-ohg.vercel.app/"
+        },
+        {
+          "label": "Resume Templates",
+          "slug": "resume-templates",
+          "href": "/menu/career/resume-templates"
+        },
+        {
+          "label": "Portfolio Templates",
+          "slug": "portfolio-templates",
+          "href": "/menu/career/portfolio-templates"
+        },
+        {
+          "label": "HR Interview Q&A",
+          "slug": "hr-interview-qa",
+          "href": "/menu/career/hr-interview-qa"
+        }
+      ]
+    },
+    {
+      "label": "Community",
+      "slug": "community",
+      "children": [
+        {
+          "label": "Forum / Discussions",
+          "slug": "forum",
+          "href": "/menu/community/forum"
+        },
+        {
+          "label": "Ask a Question",
+          "slug": "ask",
+          "href": "/menu/community/ask"
+        },
+        {
+          "label": "Leaderboard",
+          "slug": "leaderboard",
+          "href": "/menu/community/leaderboard"
+        }
+      ]
+    },
+    {
+      "label": "About / Support",
+      "slug": "about-support",
+      "children": [
+        {
+          "label": "About OHG365",
+          "slug": "about",
+          "href": "/about"
+        },
+        {
+          "label": "Help & FAQs",
+          "slug": "help",
+          "href": "/help"
+        },
+        {
+          "label": "Contact Us",
+          "slug": "contact",
+          "href": "/contact"
+        }
+      ]
+    }
+  ]
+}

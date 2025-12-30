@@ -1,0 +1,461 @@
+{
+  "pages": [
+    {
+      "slug": "frontend",
+      "category": "learning-paths",
+      "metaTitle": "Frontend Development Path | OHG365",
+      "metaDesc": "Master frontend development with HTML, CSS, JavaScript, React, and modern frameworks. Start your journey today.",
+      "h1": "Frontend Development Path",
+      "placeholderParagraphs": [
+        "Build modern, responsive web applications with our comprehensive frontend development path. Learn HTML, CSS, JavaScript, React, and other essential frontend technologies from scratch.",
+        "Our structured curriculum takes you from beginner to advanced level, covering everything from basic web fundamentals to advanced React patterns, state management, and performance optimization."
+      ],
+      "samples": [
+        { "title": "HTML5 Fundamentals", "slug": "html5-fundamentals" },
+        { "title": "CSS Grid & Flexbox Mastery", "slug": "css-grid-flexbox" },
+        { "title": "React Hooks Deep Dive", "slug": "react-hooks-deep-dive" }
+      ],
+      "cta": { "text": "Start Coding in Playground", "link": "/code-terminal" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "backend",
+      "category": "learning-paths",
+      "metaTitle": "Backend Development Path | OHG365",
+      "metaDesc": "Learn server-side development with Node.js, databases, APIs, and cloud deployment. Build scalable applications.",
+      "h1": "Backend Development Path",
+      "placeholderParagraphs": [
+        "Master server-side programming with our backend development path. Learn Node.js, databases, REST APIs, authentication, and cloud deployment.",
+        "From building your first API to deploying scalable microservices, this path covers all essential backend technologies and best practices."
+      ],
+      "samples": [
+        { "title": "Node.js & Express Basics", "slug": "nodejs-express-basics" },
+        { "title": "Database Design & SQL", "slug": "database-design-sql" },
+        { "title": "RESTful API Development", "slug": "restful-api-development" }
+      ],
+      "cta": { "text": "Practice Backend Concepts", "link": "/code-terminal" },
+      "lastUpdated": "TBD",
+      "difficulty": "intermediate"
+    },
+    {
+      "slug": "full-stack",
+      "category": "learning-paths",
+      "metaTitle": "Full-Stack Developer Path | OHG365",
+      "metaDesc": "Become a full-stack developer. Master both frontend and backend technologies to build complete applications.",
+      "h1": "Full-Stack Developer Path",
+      "placeholderParagraphs": [
+        "Combine frontend and backend skills to become a complete full-stack developer. Learn to build end-to-end applications with modern tech stacks.",
+        "This comprehensive path covers MERN stack, authentication, deployment, testing, and DevOps practices for full-stack development."
+      ],
+      "samples": [
+        { "title": "MERN Stack Tutorial", "slug": "mern-stack-tutorial" },
+        { "title": "Authentication & Security", "slug": "authentication-security" },
+        { "title": "Deployment & DevOps", "slug": "deployment-devops" }
+      ],
+      "cta": { "text": "Build Full-Stack Projects", "link": "/menu/projects/full-stack" },
+      "lastUpdated": "TBD",
+      "difficulty": "advanced"
+    },
+    {
+      "slug": "data-analyst",
+      "category": "learning-paths",
+      "metaTitle": "Data Analyst Path | OHG365",
+      "metaDesc": "Learn data analysis with Python, SQL, Excel, and visualization tools. Start your data career today.",
+      "h1": "Data Analyst Path",
+      "placeholderParagraphs": [
+        "Transform raw data into actionable insights with our data analyst path. Learn Python, SQL, Excel, and data visualization tools.",
+        "Master data cleaning, analysis, statistical methods, and create compelling visualizations to communicate your findings effectively."
+      ],
+      "samples": [
+        { "title": "Python for Data Analysis", "slug": "python-data-analysis" },
+        { "title": "SQL Queries & Joins", "slug": "sql-queries-joins" },
+        { "title": "Data Visualization with Tableau", "slug": "data-visualization-tableau" }
+      ],
+      "cta": { "text": "Practice SQL Queries", "link": "/challenges/sql" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "interview-prep",
+      "category": "learning-paths",
+      "metaTitle": "Interview Prep Path | OHG365",
+      "metaDesc": "Ace technical interviews with coding practice, system design, and behavioral interview preparation.",
+      "h1": "Interview Prep Path",
+      "placeholderParagraphs": [
+        "Prepare for technical interviews with our comprehensive interview prep path. Practice coding problems, system design, and behavioral questions.",
+        "Get ready for interviews at top tech companies with mock interviews, coding challenges, and expert tips from industry professionals."
+      ],
+      "samples": [
+        { "title": "Data Structures & Algorithms", "slug": "data-structures-algorithms" },
+        { "title": "System Design Basics", "slug": "system-design-basics" },
+        { "title": "Behavioral Interview Guide", "slug": "behavioral-interview-guide" }
+      ],
+      "cta": { "text": "Start Coding Challenges", "link": "/challenges" },
+      "lastUpdated": "TBD",
+      "difficulty": "intermediate"
+    },
+    {
+      "slug": "beginner",
+      "category": "projects",
+      "metaTitle": "Beginner Projects - Azure Databricks | OHG365",
+      "metaDesc": "Learn Azure Databricks with hands-on beginner projects. Master CSV to Delta Lake, data cleaning, and aggregation techniques.",
+      "h1": "Azure Databricks Projects",
+      "placeholderParagraphs": [
+        "Master Azure Databricks with hands-on projects. Learn to work with CSV files, Delta Lake, data cleaning, and aggregations.",
+        "Each project includes concepts, step-by-step tasks, and interview questions to help you learn and prepare for real-world scenarios."
+      ],
+      "samples": [
+        { "title": "CSV File to Delta Lake", "slug": "csv-to-delta-lake" },
+        { "title": "Data Cleaning & Data Processing", "slug": "data-cleaning-processing" },
+        { "title": "Aggregation & Reporting", "slug": "aggregation-reporting" }
+      ],
+      "cta": { "text": "Try Code Playground", "link": "/code-terminal" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "intermediate",
+      "category": "projects",
+      "metaTitle": "Intermediate Projects | OHG365",
+      "metaDesc": "Level up with intermediate projects. Build complex applications and learn advanced programming concepts.",
+      "h1": "Intermediate Projects",
+      "placeholderParagraphs": [
+        "Challenge yourself with intermediate projects that combine multiple technologies and concepts. Build portfolio-worthy applications.",
+        "These projects help you understand real-world development patterns, API integration, state management, and more advanced topics."
+      ],
+      "samples": [
+        { "title": "E-Commerce Dashboard", "slug": "ecommerce-dashboard" },
+        { "title": "Social Media App", "slug": "social-media-app" },
+        { "title": "Task Management System", "slug": "task-management-system" }
+      ],
+      "cta": { "text": "View Full-Stack Projects", "link": "/menu/projects/full-stack" },
+      "lastUpdated": "TBD",
+      "difficulty": "intermediate"
+    },
+    {
+      "slug": "full-stack",
+      "category": "projects",
+      "metaTitle": "Full-Stack Projects | OHG365",
+      "metaDesc": "Build complete full-stack applications. Master both frontend and backend development with real projects.",
+      "h1": "Full-Stack Projects",
+      "placeholderParagraphs": [
+        "Build production-ready full-stack applications with our comprehensive project collection. Learn to integrate frontend and backend seamlessly.",
+        "These projects cover authentication, database design, API development, deployment, and all aspects of full-stack development."
+      ],
+      "samples": [
+        { "title": "Blog Platform with CMS", "slug": "blog-platform-cms" },
+        { "title": "Real-Time Chat Application", "slug": "realtime-chat-app" },
+        { "title": "E-Learning Platform", "slug": "elearning-platform" }
+      ],
+      "cta": { "text": "Start Learning Path", "link": "/menu/learning-paths/full-stack" },
+      "lastUpdated": "TBD",
+      "difficulty": "advanced"
+    },
+    {
+      "slug": "quizzes",
+      "category": "practice",
+      "metaTitle": "Coding Quizzes | OHG365",
+      "metaDesc": "Test your knowledge with interactive coding quizzes. Practice concepts and track your progress.",
+      "h1": "Coding Quizzes",
+      "placeholderParagraphs": [
+        "Test your understanding of programming concepts with our interactive quizzes. Cover topics from basic syntax to advanced algorithms.",
+        "Get instant feedback, review explanations, and track your progress as you master different programming languages and concepts."
+      ],
+      "samples": [
+        { "title": "JavaScript Fundamentals Quiz", "slug": "javascript-fundamentals-quiz" },
+        { "title": "React Concepts Quiz", "slug": "react-concepts-quiz" },
+        { "title": "Python Basics Quiz", "slug": "python-basics-quiz" }
+      ],
+      "cta": { "text": "Try Coding Challenges", "link": "/challenges" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "mcq",
+      "category": "practice",
+      "metaTitle": "MCQ Tests | OHG365",
+      "metaDesc": "Practice multiple choice questions for interviews and exams. Prepare for technical assessments.",
+      "h1": "MCQ Tests",
+      "placeholderParagraphs": [
+        "Prepare for technical interviews and exams with our comprehensive MCQ test collection. Practice questions from various programming topics.",
+        "Each test includes detailed explanations, difficulty levels, and performance tracking to help you identify areas for improvement."
+      ],
+      "samples": [
+        { "title": "Data Structures MCQ", "slug": "data-structures-mcq" },
+        { "title": "Database Concepts MCQ", "slug": "database-concepts-mcq" },
+        { "title": "System Design MCQ", "slug": "system-design-mcq" }
+      ],
+      "cta": { "text": "Practice in Playground", "link": "/code-terminal" },
+      "lastUpdated": "TBD",
+      "difficulty": "intermediate"
+    },
+    {
+      "slug": "cheat-sheets",
+      "category": "resources",
+      "metaTitle": "Programming Cheat Sheets | OHG365",
+      "metaDesc": "Quick reference guides for programming languages, frameworks, and tools. Download free cheat sheets.",
+      "h1": "Programming Cheat Sheets",
+      "placeholderParagraphs": [
+        "Access quick reference guides for all major programming languages, frameworks, and development tools. Perfect for daily coding reference.",
+        "Download printable cheat sheets covering syntax, commands, shortcuts, and best practices for faster development."
+      ],
+      "samples": [
+        { "title": "JavaScript Cheat Sheet", "slug": "javascript-cheat-sheet" },
+        { "title": "Git Commands Cheat Sheet", "slug": "git-commands-cheat-sheet" },
+        { "title": "CSS Grid Cheat Sheet", "slug": "css-grid-cheat-sheet" }
+      ],
+      "cta": { "text": "Download PDFs", "link": "/menu/resources/downloads" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "notes",
+      "category": "resources",
+      "metaTitle": "Notes & Summaries | OHG365",
+      "metaDesc": "Comprehensive notes and summaries for programming topics. Study guides and quick reference materials.",
+      "h1": "Notes & Summaries",
+      "placeholderParagraphs": [
+        "Access well-organized notes and summaries for all major programming topics. Perfect for quick revision and exam preparation.",
+        "Our notes cover key concepts, examples, diagrams, and practice questions to help you master programming fundamentals."
+      ],
+      "samples": [
+        { "title": "React Complete Notes", "slug": "react-complete-notes" },
+        { "title": "Node.js Summary Guide", "slug": "nodejs-summary-guide" },
+        { "title": "Database Design Notes", "slug": "database-design-notes" }
+      ],
+      "cta": { "text": "View Learning Paths", "link": "/menu/learning-paths/frontend" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "roadmaps",
+      "category": "resources",
+      "metaTitle": "Developer Roadmaps | OHG365",
+      "metaDesc": "Step-by-step roadmaps for becoming a frontend, backend, or full-stack developer. Plan your learning journey.",
+      "h1": "Developer Roadmaps",
+      "placeholderParagraphs": [
+        "Follow structured learning roadmaps to become a professional developer. Clear paths from beginner to advanced level.",
+        "Our roadmaps include recommended resources, project ideas, and milestones to track your progress and stay motivated."
+      ],
+      "samples": [
+        { "title": "Frontend Developer Roadmap", "slug": "frontend-developer-roadmap" },
+        { "title": "Backend Developer Roadmap", "slug": "backend-developer-roadmap" },
+        { "title": "Full-Stack Roadmap 2024", "slug": "fullstack-roadmap-2024" }
+      ],
+      "cta": { "text": "Start Learning Path", "link": "/menu/learning-paths/frontend" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "downloads",
+      "category": "resources",
+      "metaTitle": "PDFs & Downloads | OHG365",
+      "metaDesc": "Download free PDFs, ebooks, templates, and resources for programming and development.",
+      "h1": "PDFs & Downloads",
+      "placeholderParagraphs": [
+        "Download free programming resources including PDFs, ebooks, templates, and study materials. All resources are free to download.",
+        "Access comprehensive guides, cheat sheets, project templates, and documentation to support your learning journey."
+      ],
+      "samples": [
+        { "title": "JavaScript Complete Guide PDF", "slug": "javascript-complete-guide-pdf" },
+        { "title": "React Project Templates", "slug": "react-project-templates" },
+        { "title": "Interview Prep Ebook", "slug": "interview-prep-ebook" }
+      ],
+      "cta": { "text": "Browse Resources", "link": "/menu/resources/cheat-sheets" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "job-prep",
+      "category": "career",
+      "metaTitle": "Job Preparation Guide | OHG365",
+      "metaDesc": "Prepare for tech jobs with interview tips, coding practice, and career guidance. Land your dream job.",
+      "h1": "Job Preparation Guide",
+      "placeholderParagraphs": [
+        "Get ready for your tech job search with our comprehensive preparation guide. Learn interview strategies, coding practice, and career tips.",
+        "Access mock interviews, coding challenges, resume tips, and expert advice to help you stand out in the job market."
+      ],
+      "samples": [
+        { "title": "Technical Interview Guide", "slug": "technical-interview-guide" },
+        { "title": "Coding Interview Prep", "slug": "coding-interview-prep" },
+        { "title": "Salary Negotiation Tips", "slug": "salary-negotiation-tips" }
+      ],
+      "cta": { "text": "Practice Coding", "link": "/challenges" },
+      "lastUpdated": "TBD",
+      "difficulty": "intermediate"
+    },
+    {
+      "slug": "resume-templates",
+      "category": "career",
+      "metaTitle": "Resume Templates | OHG365",
+      "metaDesc": "Professional resume templates for developers. Download free templates and get resume writing tips.",
+      "h1": "Resume Templates",
+      "placeholderParagraphs": [
+        "Download professional resume templates designed specifically for developers and tech professionals. Stand out with ATS-friendly formats.",
+        "Choose from multiple designs, get resume writing tips, and learn how to highlight your technical skills effectively."
+      ],
+      "samples": [
+        { "title": "Software Engineer Resume", "slug": "software-engineer-resume" },
+        { "title": "Frontend Developer Resume", "slug": "frontend-developer-resume" },
+        { "title": "Full-Stack Resume Template", "slug": "fullstack-resume-template" }
+      ],
+      "cta": { "text": "Get Job Prep Help", "link": "/menu/career/job-prep" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "portfolio-templates",
+      "category": "career",
+      "metaTitle": "Portfolio Templates | OHG365",
+      "metaDesc": "Build your developer portfolio with free templates. Showcase your projects and skills professionally.",
+      "h1": "Portfolio Templates",
+      "placeholderParagraphs": [
+        "Create a stunning developer portfolio with our free templates. Showcase your projects, skills, and experience to potential employers.",
+        "Choose from modern, responsive templates that work on all devices. Customize easily and deploy quickly."
+      ],
+      "samples": [
+        { "title": "React Portfolio Template", "slug": "react-portfolio-template" },
+        { "title": "Next.js Portfolio Theme", "slug": "nextjs-portfolio-theme" },
+        { "title": "Minimal Portfolio Design", "slug": "minimal-portfolio-design" }
+      ],
+      "cta": { "text": "View Projects", "link": "/menu/projects/beginner" },
+      "lastUpdated": "TBD",
+      "difficulty": "intermediate"
+    },
+    {
+      "slug": "hr-interview-qa",
+      "category": "career",
+      "metaTitle": "HR Interview Q&A | OHG365",
+      "metaDesc": "Prepare for HR interviews with common questions and answers. Ace behavioral and situational interviews.",
+      "h1": "HR Interview Q&A",
+      "placeholderParagraphs": [
+        "Master HR interviews with our comprehensive question and answer guide. Learn how to answer behavioral and situational questions effectively.",
+        "Practice common HR interview questions, learn the STAR method, and get tips to make a great impression in interviews."
+      ],
+      "samples": [
+        { "title": "Tell Me About Yourself", "slug": "tell-me-about-yourself" },
+        { "title": "Why Do You Want This Job?", "slug": "why-do-you-want-this-job" },
+        { "title": "Strengths & Weaknesses", "slug": "strengths-weaknesses" }
+      ],
+      "cta": { "text": "Job Preparation Guide", "link": "/menu/career/job-prep" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "forum",
+      "category": "community",
+      "metaTitle": "Developer Forum | OHG365",
+      "metaDesc": "Join our developer community. Ask questions, share knowledge, and connect with fellow programmers.",
+      "h1": "Developer Forum",
+      "placeholderParagraphs": [
+        "Connect with a vibrant community of developers. Ask questions, share knowledge, and learn from experienced programmers.",
+        "Get help with coding problems, discuss best practices, share project ideas, and grow your network in the tech community."
+      ],
+      "samples": [
+        { "title": "Getting Started with React", "slug": "getting-started-react" },
+        { "title": "Database Design Help", "slug": "database-design-help" },
+        { "title": "Career Advice Thread", "slug": "career-advice-thread" }
+      ],
+      "cta": { "text": "Ask a Question", "link": "/menu/community/ask" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "ask",
+      "category": "community",
+      "metaTitle": "Ask a Question | OHG365",
+      "metaDesc": "Get help with coding problems and programming questions. Our community is here to help you learn.",
+      "h1": "Ask a Question",
+      "placeholderParagraphs": [
+        "Stuck on a coding problem? Ask our community for help. Get quick answers from experienced developers and learn from detailed explanations.",
+        "Post your questions with code snippets, error messages, and context. Our community members are always ready to help you learn and grow."
+      ],
+      "samples": [
+        { "title": "How to Debug JavaScript?", "slug": "how-to-debug-javascript" },
+        { "title": "React State Management", "slug": "react-state-management" },
+        { "title": "API Integration Help", "slug": "api-integration-help" }
+      ],
+      "cta": { "text": "Browse Forum", "link": "/menu/community/forum" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "leaderboard",
+      "category": "community",
+      "metaTitle": "Leaderboard | OHG365",
+      "metaDesc": "See top performers in coding challenges and quizzes. Compete and climb the rankings.",
+      "h1": "Leaderboard",
+      "placeholderParagraphs": [
+        "Compete with other developers and climb the leaderboard. Track your progress, earn badges, and see how you rank globally.",
+        "Participate in coding challenges, complete quizzes, and build projects to earn points and move up the rankings."
+      ],
+      "samples": [
+        { "title": "Weekly Challenge Winners", "slug": "weekly-challenge-winners" },
+        { "title": "Top Contributors", "slug": "top-contributors" },
+        { "title": "Badge Achievements", "slug": "badge-achievements" }
+      ],
+      "cta": { "text": "Start Challenges", "link": "/challenges" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "about",
+      "category": "about-support",
+      "metaTitle": "About OHG365 | Learn to Code",
+      "metaDesc": "Learn about OHG365 - your platform for learning programming, coding challenges, and developer resources.",
+      "h1": "About OHG365",
+      "placeholderParagraphs": [
+        "OHG365 is a comprehensive learning platform designed to help you master programming and development skills. We offer tutorials, coding challenges, projects, and resources for developers of all levels.",
+        "Our mission is to make quality programming education accessible to everyone. Join thousands of learners building their tech careers with OHG365."
+      ],
+      "samples": [
+        { "title": "Our Mission", "slug": "our-mission" },
+        { "title": "Meet the Team", "slug": "meet-the-team" },
+        { "title": "Success Stories", "slug": "success-stories" }
+      ],
+      "cta": { "text": "Start Learning", "link": "/menu/learning-paths/frontend" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "help",
+      "category": "about-support",
+      "metaTitle": "Help & FAQs | OHG365 Support",
+      "metaDesc": "Get help with OHG365. Find answers to common questions, troubleshooting guides, and support resources.",
+      "h1": "Help & FAQs",
+      "placeholderParagraphs": [
+        "Find answers to common questions about using OHG365. Get help with account issues, platform features, and learning resources.",
+        "Browse our FAQ section, troubleshooting guides, and contact our support team if you need additional assistance."
+      ],
+      "samples": [
+        { "title": "Account Setup Guide", "slug": "account-setup-guide" },
+        { "title": "How to Use Playground", "slug": "how-to-use-playground" },
+        { "title": "Troubleshooting Tips", "slug": "troubleshooting-tips" }
+      ],
+      "cta": { "text": "Contact Support", "link": "/contact" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    },
+    {
+      "slug": "contact",
+      "category": "about-support",
+      "metaTitle": "Contact Us | OHG365",
+      "metaDesc": "Get in touch with OHG365. Contact our team for support, feedback, or partnership inquiries.",
+      "h1": "Contact Us",
+      "placeholderParagraphs": [
+        "Have questions or feedback? We'd love to hear from you. Contact our team for support, suggestions, or partnership opportunities.",
+        "Reach out via email, fill out our contact form, or connect with us on social media. We're here to help you succeed."
+      ],
+      "samples": [
+        { "title": "General Inquiries", "slug": "general-inquiries" },
+        { "title": "Technical Support", "slug": "technical-support" },
+        { "title": "Partnership Opportunities", "slug": "partnership-opportunities" }
+      ],
+      "cta": { "text": "Visit Help Center", "link": "/help" },
+      "lastUpdated": "TBD",
+      "difficulty": "beginner"
+    }
+  ]
+}
+

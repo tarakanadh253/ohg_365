@@ -9,19 +9,19 @@ function isValidToken(token: string): boolean {
   if (!token || token.trim() === '' || token === 'null' || token === 'undefined') {
     return false;
   }
-  
+
   try {
     const parts = token.split('.');
     if (parts.length !== 3) {
       return false; // Invalid JWT format
     }
-    
+
     // Check if token is expired
     const payload = JSON.parse(atob(parts[1]));
     if (payload.exp && payload.exp * 1000 < Date.now()) {
       return false; // Token expired
     }
-    
+
     return true; // Token is valid
   } catch {
     return false; // Invalid token format
@@ -45,9 +45,9 @@ export default function TutorialAuthGuard({ children }: { children: React.ReactN
     }
 
     const currentPath = pathname || window.location.pathname;
-    
+
     // Only require registration for tutorials dropdown routes
-    const isTutorialDropdownRoute = 
+    const isTutorialDropdownRoute =
       currentPath === "/tutorials/medical-coding" ||
       currentPath === "/tutorials/programming" ||
       currentPath === "/tutorials/government-jobs" ||
@@ -56,19 +56,19 @@ export default function TutorialAuthGuard({ children }: { children: React.ReactN
       currentPath.startsWith("/tutorials/programming/") ||
       currentPath.startsWith("/tutorials/government-jobs/") ||
       currentPath.startsWith("/tutorials/courses/");
-    
+
     // If not a dropdown route, allow access without registration
     if (!isTutorialDropdownRoute) {
       console.log('[TUTORIAL_AUTH] Not a dropdown route, allowing access:', currentPath);
       setIsAuthenticated(true);
       return;
     }
-    
+
     const token = localStorage.getItem('token');
-    
+
     // ALWAYS check for registered email first (regardless of token validity)
     let email = localStorage.getItem('registeredEmail');
-    
+
     // Fallback: check stored user object for email
     if (!email || email.trim() === '') {
       const userStr = localStorage.getItem('user');
@@ -86,14 +86,14 @@ export default function TutorialAuthGuard({ children }: { children: React.ReactN
         }
       }
     }
-    
+
     // If registered email exists, check sessionStorage to see if modal was already shown
     // The modal is handled by GlobalContinuePrompt component, which respects sessionStorage
     if (email && email.trim() !== '') {
       // Check if modal was already shown in this session
       const sessionKey = 'continueModalShown';
       const hasShownInSession = sessionStorage.getItem(sessionKey) === 'true';
-      
+
       if (hasShownInSession) {
         // Modal already shown this session - allow access (GlobalContinuePrompt handles the modal)
         console.log('[TUTORIAL_AUTH] Registered email found, but modal already shown this session - allowing access');
@@ -130,7 +130,9 @@ export default function TutorialAuthGuard({ children }: { children: React.ReactN
         return;
       }
     }
-    
+
+    // No registered email found
+    // Validate token
     // No registered email found
     // Validate token
     if (!isValidToken(token || '')) {
@@ -138,15 +140,13 @@ export default function TutorialAuthGuard({ children }: { children: React.ReactN
       if (token) {
         localStorage.removeItem('token');
       }
-      
-      // No registered email and invalid token - redirect to registration
-      const redirectUrl = `/register?redirect=${encodeURIComponent(currentPath)}`;
-      console.log('[TUTORIAL_AUTH] No registered email and invalid token, redirecting to:', redirectUrl);
-      window.location.href = redirectUrl;
-      setIsAuthenticated(false);
+
+      // Don't redirect automatically - allow public access
+      console.log('[TUTORIAL_AUTH] Invalid token, but allowing public access');
+      setIsAuthenticated(true);
       return;
     }
-    
+
     // Token is valid - allow access even without registered email
     // registeredEmail is only used for the "continue" modal, not for blocking access
     console.log('[TUTORIAL_AUTH] ✅ Token valid but no registered email - allowing access anyway (token is sufficient)');

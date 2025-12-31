@@ -10,19 +10,19 @@ function isValidToken(token: string): boolean {
   if (!token || token.trim() === '' || token === 'null' || token === 'undefined') {
     return false;
   }
-  
+
   try {
     const parts = token.split('.');
     if (parts.length !== 3) {
       return false; // Invalid JWT format
     }
-    
+
     // Check if token is expired
     const payload = JSON.parse(atob(parts[1]));
     if (payload.exp && payload.exp * 1000 < Date.now()) {
       return false; // Token expired
     }
-    
+
     return true; // Token is valid
   } catch {
     return false; // Invalid token format
@@ -46,11 +46,8 @@ const tutorialsDropdownRoutes = [
 ];
 
 export default function GlobalContinuePrompt() {
-  if (!AUTH_SYSTEM_AVAILABLE) {
-    return null;
-  }
-
-  return <GlobalContinuePromptInner />;
+  // Disabled per user request - manual login only
+  return null;
 }
 
 function GlobalContinuePromptInner() {
@@ -66,7 +63,7 @@ function GlobalContinuePromptInner() {
   // Initialize: Check sessionStorage once on mount
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    
+
     const hasShownInSession = sessionStorage.getItem(sessionKey) === 'true';
     if (hasShownInSession) {
       hasProcessedSessionRef.current = true;
@@ -83,7 +80,7 @@ function GlobalContinuePromptInner() {
     // CRITICAL: Check sessionStorage FIRST - before ANY other checks
     // sessionStorage persists across component remounts, so this is the source of truth
     const hasShownInSession = sessionStorage.getItem(sessionKey) === 'true';
-    
+
     // If already shown in session, skip everything immediately
     // Don't even check pathname or anything else - sessionStorage is the source of truth
     if (hasShownInSession) {
@@ -91,18 +88,18 @@ function GlobalContinuePromptInner() {
       setHasChecked(true);
       return; // Exit immediately - don't process anything
     }
-    
+
     // Also check ref as secondary check (for same render cycle)
     if (hasProcessedSessionRef.current) {
       setHasChecked(true);
       return;
     }
-    
+
     // Now check if we're on a tutorial route - if not, mark as checked and return
     const currentPath = pathname || window.location.pathname;
-    
+
     // Don't show on excluded routes
-    const isExcluded = excludedRoutes.some(route => 
+    const isExcluded = excludedRoutes.some(route =>
       currentPath === route || currentPath.startsWith(route)
     );
 
@@ -112,8 +109,8 @@ function GlobalContinuePromptInner() {
     }
 
     // Only show for tutorials dropdown routes
-    const isTutorialDropdownRoute = 
-      tutorialsDropdownRoutes.some(route => 
+    const isTutorialDropdownRoute =
+      tutorialsDropdownRoutes.some(route =>
         currentPath === route || currentPath.startsWith(route + '/')
       );
 
@@ -121,13 +118,13 @@ function GlobalContinuePromptInner() {
       setHasChecked(true);
       return;
     }
-    
+
     // Prevent multiple simultaneous checks
     if (isCheckingRef.current) {
       console.log('[GLOBAL_CONTINUE] Already checking, skipping duplicate check');
       return;
     }
-    
+
     // IMPORTANT: Set sessionStorage IMMEDIATELY before any async operations
     // This marks the session as processed, preventing modal on subsequent navigations
     // Even if the component remounts, sessionStorage will persist
@@ -136,7 +133,7 @@ function GlobalContinuePromptInner() {
 
     // Check for registered email in localStorage
     let email = localStorage.getItem('registeredEmail');
-    
+
     // Fallback: check stored user object for email
     if (!email || email.trim() === '') {
       const userStr = localStorage.getItem('user');
@@ -157,20 +154,20 @@ function GlobalContinuePromptInner() {
         }
       }
     }
-    
+
     // If no email found, don't show modal
     if (!email || email.trim() === '') {
       console.log('[GLOBAL_CONTINUE] No registered email found in localStorage');
       setHasChecked(true);
       return;
     }
-    
+
     // Verify email exists in database before showing modal
     console.log('[GLOBAL_CONTINUE] Checking if email exists in database:', email);
-    
+
     // Mark that we're checking to prevent duplicate checks
     isCheckingRef.current = true;
-    
+
     // Create async function to check email
     const checkEmailInDatabase = async () => {
       try {
@@ -181,9 +178,9 @@ function GlobalContinuePromptInner() {
           },
           body: JSON.stringify({ email: email.trim() }),
         });
-        
+
         const data = await response.json();
-        
+
         if (response.ok && data.exists === true) {
           // sessionStorage is already set above, so modal won't show again on navigation
           console.log('[GLOBAL_CONTINUE] ✅ Email verified in database, showing continue modal (once per session)');
@@ -192,7 +189,7 @@ function GlobalContinuePromptInner() {
           timerRef.current = setTimeout(() => {
             setShowContinueModal(true);
           }, 1000); // 1 second delay
-          
+
           setHasChecked(true);
         } else {
           // Email not in database - this is normal, not an error
@@ -214,10 +211,10 @@ function GlobalContinuePromptInner() {
         isCheckingRef.current = false;
       }
     };
-    
+
     // Call the async function
     checkEmailInDatabase();
-    
+
     // Cleanup function
     return () => {
       if (timerRef.current) {
@@ -235,7 +232,7 @@ function GlobalContinuePromptInner() {
   // Check if modal should be shown - verify sessionStorage hasn't changed
   // sessionKey is already defined at component level (line 60)
   const hasShownInSession = typeof window !== 'undefined' && sessionStorage.getItem(sessionKey) === 'true';
-  
+
   // If sessionStorage says it's been shown, but modal state says show, hide it
   if (hasShownInSession && showContinueModal) {
     setShowContinueModal(false);

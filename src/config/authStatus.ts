@@ -1,4 +1,4 @@
-export const AUTH_SYSTEM_AVAILABLE = true;
+export const AUTH_SYSTEM_AVAILABLE = false;
 
 export const AUTH_STATUS_HEADING = "Authentication Temporarily Paused";
 

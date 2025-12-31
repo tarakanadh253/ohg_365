@@ -22,7 +22,7 @@ export default function LoginPrompt() {
     hasStartedTimerRef.current = false;
 
     // Don't show on login/signup pages
-    const isAuthPage = 
+    const isAuthPage =
       pathname === "/login" ||
       pathname === "/signup";
 
@@ -45,29 +45,29 @@ export default function LoginPrompt() {
 
     // Check if we've already shown the modal in this session
     const sessionShown = typeof window !== "undefined" ? sessionStorage.getItem("loginModalShown") : null;
-    
+
     // Only start timer if not already shown in this session
     if (sessionShown !== "true") {
       hasStartedTimerRef.current = true;
-      
-      // Set timer for 10 seconds
-      timerRef.current = setTimeout(() => {
-        // Double-check user is still not logged in
-        if (!checkAuth()) {
-          // Check again if we're still on a non-auth page
-          const currentPath = window.location.pathname;
-          const stillAuthPage = 
-            currentPath === "/login" ||
-            currentPath === "/signup";
-          
-          if (!stillAuthPage) {
-            setShowModal(true);
-            if (typeof window !== "undefined") {
-              sessionStorage.setItem("loginModalShown", "true");
-            }
-          }
-        }
-      }, 10000); // 10 seconds
+
+      // Timer disabled to prevent auto-opening
+      // timerRef.current = setTimeout(() => {
+      //   // Double-check user is still not logged in
+      //   if (!checkAuth()) {
+      //     // Check again if we're still on a non-auth page
+      //     const currentPath = window.location.pathname;
+      //     const stillAuthPage = 
+      //       currentPath === "/login" ||
+      //       currentPath === "/signup";
+      //     
+      //     if (!stillAuthPage) {
+      //       setShowModal(true);
+      //       if (typeof window !== "undefined") {
+      //         sessionStorage.setItem("loginModalShown", "true");
+      //       }
+      //     }
+      //   }
+      // }, 10000); // 10 seconds
     }
 
     return () => {

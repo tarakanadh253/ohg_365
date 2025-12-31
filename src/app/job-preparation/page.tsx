@@ -18,7 +18,8 @@ export default function JobPreparationPage() {
                     src="https://ai-interviewer-ohg.vercel.app/"
                     className="w-full h-full border-0"
                     title="AI Interviewer"
-                    allow="microphone; camera; display-capture; autoplay; clipboard-write"
+                    allow="microphone; camera; display-capture; autoplay; clipboard-write; fullscreen"
+                    allowFullScreen
                     width="100%"
                     height="100%"
                     onLoad={() => setIsLoading(false)}

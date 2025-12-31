@@ -17,7 +17,7 @@ export function ConditionalNav() {
   }, []);
 
   // Hide ConditionalNav on home route (it has its own navigation)
-  if (pathname === '/' || pathname?.includes('job-preparation')) {
+  if (pathname === '/') {
     return null;
   }
 
